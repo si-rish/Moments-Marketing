@@ -68,14 +68,16 @@ const HeroSection = () => {
               whileHover={{ scale: 1.1 }}
               className="bg-green-400 text-black flex items-center px-6 py-2 text-lg font-semibold rounded-full hover:bg-green-500 transition"
             >
-              Let’s Talk
-              <HiArrowUpRight className="ml-2" />
+              <Link to="/contact" className="flex items-center">
+                Let’s Talk
+                <HiArrowUpRight className="ml-2" />
+              </Link>
             </motion.button>
-          </div>
-        </div>
-      </motion.nav>
+            </div>
+            </div>
+            </motion.nav>
 
-      {/* Content Container */}
+            {/* Content Container */}
       <div className="relative z-10 flex-1 flex items-center px-10 md:px-20 lg:px-32 text-white">
         <div className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-between">
           {/* Left Content (Heading) */}
