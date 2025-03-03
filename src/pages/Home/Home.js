@@ -18,7 +18,7 @@ function Home() {
       <SubHero3 />
       <SubHero4 />
       <Section/>
-      <Expertise/>
+      {/* <Expertise/> */}
       <FAQ/>
       <Footer/>
     </div>

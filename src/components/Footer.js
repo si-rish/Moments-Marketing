@@ -9,11 +9,10 @@ const Footer = () => {
         {/* Logo & About */}
         <div>
           <h2 className="text-2xl font-bold flex items-center gap-2">
-            <span className="text-gray-400 text-4xl">⬢</span> Grasy
+            <span className="text-gray-400 text-4xl">⬢</span> Moments Marketing
           </h2>
           <p className="text-gray-500 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
+          We start by deeply understanding your business goals and challenges to craft tailored solutions that drive success.
           </p>
           <div className="mt-4">
             <span className="font-semibold">Follow Us :</span>
@@ -46,7 +45,7 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-lg text-gray-200">Quick Link</h3>
           <ul className="mt-2 space-y-2 text-gray-400">
-            <li>Pages</li>
+            <li>Services</li>
             <li>FAQs</li>
             <li>Contact</li>
             <li>Blog</li>
@@ -58,13 +57,13 @@ const Footer = () => {
           <h3 className="font-bold text-lg text-gray-200">Contact Info</h3>
           <ul className="mt-2 space-y-3 text-gray-400">
             <li className="flex items-center gap-2">
-              <FiPhone className="text-gray-500" /> +123-456-789
+              <FiPhone className="text-gray-500" /> +91 9876543210
             </li>
             <li className="flex items-center gap-2">
-              <FiMail className="text-gray-500" /> hello.example@grasy.com
+              <FiMail className="text-gray-500" /> momentsmarketing@gmail.com
             </li>
             <li className="flex items-center gap-2">
-              <FiMapPin className="text-gray-500" /> Address Line 01, Any City
+              <FiMapPin className="text-gray-500" /> Gondia, Maharashtra 441614
             </li>
           </ul>
         </div>

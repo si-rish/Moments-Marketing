@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { HiArrowUpRight } from "react-icons/hi2";
 import { motion } from "framer-motion";
 
@@ -30,17 +31,24 @@ const HeroSection = () => {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
-          <h1 className="text-2xl font-bold">Moments Marketing</h1>
-
+          <Link to="/" className="text-2xl font-bold">⬢ Moments Marketing</Link>
           {/* Navigation Links */}
           <ul className="hidden md:flex space-x-8 text-lg">
-            <li className="hover:text-gray-400 cursor-pointer">About</li>
-            <li className="hover:text-gray-400 cursor-pointer">Project</li>
-            <li className="hover:text-gray-400 cursor-pointer">Services</li>
-            {/* <li className="hover:text-gray-400 cursor-pointer">Pricing</li> */}
-            <li className="hover:text-gray-400 cursor-pointer">Blog</li>
-            <li className="hover:text-gray-400 cursor-pointer">Contact</li>
-            
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="/about">About</Link>
+            </li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="/services">Services</Link>
+            </li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="/blogs">Blog</Link>
+            </li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
 
           {/* Right Side (Cart & Button) */}

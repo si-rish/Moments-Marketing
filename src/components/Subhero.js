@@ -24,7 +24,7 @@ const SubHero = () => {
           {/* Stats */}
           <div className="flex flex-wrap gap-10 mb-10">
             <div>
-              <h3 className="text-4xl font-bold">700+</h3>
+              <h3 className="text-4xl font-bold">10+</h3>
               <p className="text-green-400">Projects Delivered</p>
             </div>
             <div>
@@ -32,7 +32,7 @@ const SubHero = () => {
               <p className="text-green-400">Client Satisfaction</p>
             </div>
             <div>
-              <h3 className="text-4xl font-bold">10+</h3>
+              <h3 className="text-4xl font-bold">5+</h3>
               <p className="text-green-400">Industry Experience</p>
             </div>
           </div>

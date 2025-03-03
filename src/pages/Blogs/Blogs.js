@@ -1,17 +1,18 @@
 import React from "react";
 import PageHero from "../../components/PageHero";
-const Services = () => {
+
+const Blogs = () => {
   return (
     <div>
       <PageHero 
-        title="Our Services" 
-        backgroundImage="https://example.com/services-bg.jpg"
+        title="Our Blog" 
+        backgroundImage="https://example.com/blog-bg.jpg"
       />
       <div className="p-10 text-center text-white">
-        <p>Discover what we offer.</p>
+        <p>Explore our latest articles.</p>
       </div>
     </div>
   );
 };
 
-export default Services;
+export default Blogs;
